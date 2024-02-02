@@ -8,7 +8,7 @@
     <string name="app_name_private_4">%s (Private)</string>
 
     <!-- Decision to show extensions menu entries -->
-    <string name="preference_showExtensions">true</string>
+    <string name="preference_showExtensions">false</string>
 
     <!-- Home Fragment -->
     <!-- Content description (not visible, for screen readers etc.): "Three dot" menu button. -->

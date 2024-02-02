@@ -82,7 +82,7 @@ open class DefaultToolbarMenu(
         FxNimbus.features.print.recordExposure()
         WebExtensionBrowserMenuBuilder(
             items = coreMenuItems,
-            endOfMenuAlwaysVisible = shouldUseBottomToolbar,
+            endOfMenuAlwaysVisible = if(context.getString(R.string.preference_showExtensions).equals("true")) shouldUseBottomToolbar else true,
             store = store,
             style = WebExtensionBrowserMenuBuilder.Style(
                 webExtIconTintColorResource = primaryTextColor(),
@@ -91,7 +91,8 @@ open class DefaultToolbarMenu(
             onAddonsManagerTapped = {
                 onItemTapped.invoke(ToolbarMenu.Item.AddonsManager)
             },
-            appendExtensionSubMenuAtStart = shouldUseBottomToolbar,
+            showAddonsInMenu = context.getString(R.string.preference_showExtensions).equals("true"),
+            appendExtensionSubMenuAtStart = if(context.getString(R.string.preference_showExtensions).equals("true")) shouldUseBottomToolbar else false,
         )
     }
 
@@ -416,7 +417,7 @@ open class DefaultToolbarMenu(
                 bookmarksItem,
                 historyItem,
                 downloadsItem,
-                extensionsItem,
+                if (context.getString(R.string.preference_showExtensions).equals("true")) extensionsItem else null,
                 syncMenuItem(),
                 BrowserMenuDivider(),
                 findInPageItem,
