@@ -217,7 +217,7 @@ class HomeMenu(
             bookmarksItem,
             historyItem,
             downloadsItem,
-            extensionsItem,
+            if (context.getString(R.string.preference_showExtensions).equals("true")) extensionsItem else null,
             syncSignInMenuItem,
             accountAuthItem,
             if (Config.channel.isMozillaOnline) manageAccountAndDevicesItem else null,
