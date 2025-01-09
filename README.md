@@ -33,7 +33,7 @@ Fenix (internal codename) is the all-new Firefox for Android browser, based on [
 
 <a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" target="_blank"><img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="90"/></a>
 
-Please file issues for Fenix (Firefox for Android) in [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Fenix), selecting the corresponding component. 
+Please file issues for Fenix (Firefox for Android 13) in [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?product=Fenix), selecting the corresponding component. 
 
 [Learn more about Firefox for Android](fenix/README.md)
 
