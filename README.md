@@ -1,3 +1,13 @@
+# ⚠️ Unofficial modified fork — not affiliated with Mozilla
+
+> **This repository is an unofficial, modified fork** maintained by an independent developer ([manuelhintermayr](https://github.com/manuelhintermayr)). It is **not** an official Mozilla or Firefox product, release, or distribution, and it is **not** endorsed by, sponsored by, or affiliated with Mozilla.
+>
+> - The source code remains licensed under the **Mozilla Public License, v. 2.0** (see [LICENSE](LICENSE)); that license and all upstream copyright and license notices are preserved unchanged.
+> - **Trademarks are not licensed.** "Mozilla", "Firefox", "Fenix", "Focus", "Klar", and related names and logos are trademarks of the Mozilla Foundation. The MPL does **not** grant any rights in these trademarks (see MPL sections 2.1 and 3.4), and neither does this repository.
+> - For the official Firefox for Android, visit [mozilla.org/firefox](https://www.mozilla.org/firefox/). The upstream project is [mozilla-mobile/firefox-android](https://github.com/mozilla-mobile/firefox-android), now maintained in [Mozilla Central](https://firefox-source-docs.mozilla.org/).
+
+---
+
 # ⚠️ Update, June 2024: Migration to Mozilla Central Complete 
 
 As of Firefox 128, all future releases will be fully managed in Mozilla Central. We are archiving this Github repository as of June 17th. Please refer to our [Wiki announcement](https://github.com/mozilla-mobile/firefox-android/wiki#upcoming-migration-to-mozilla-central) for more context.
